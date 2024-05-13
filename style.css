@@ -324,6 +324,10 @@ a,
         position: relative;
     }
 
+    nav li.menu-parent > a::after {
+        margin-left: .5rem;
+    }
+
     header nav .menu-parent.details .submenu {
         display: block;
         position: absolute;
