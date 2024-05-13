@@ -160,7 +160,7 @@ nav .submenu-label img {
 
 nav .submenu-label a {
     display: block;
-    margin: .25rem .75rem;
+    margin: .25rem .5rem;
 }
 
 nav .submenu-label:has(img) a {
