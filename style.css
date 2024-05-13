@@ -2,6 +2,7 @@
     --almost-white: hsl(0, 0%, 98%);
     --medium-gray: hsl(0, 0%, 41%);
     --almost-black: hsl(0, 0%, 8%);
+    --medium-gray-shade: hsla(0, 0%, 41%, 0.3);
 }
 
 *,
@@ -332,7 +333,7 @@ a,
         width: auto;
         padding: 1rem;
         border-radius: 1rem;
-        box-shadow: var(--medium-gray) 0px 8px 24px;
+        box-shadow: var(--medium-gray-shade) 0 .5rem 1.5rem;
     }
 
     header nav .menu-parent.details:nth-of-type(2) .submenu {
